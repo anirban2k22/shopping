@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .hero {
+    background-image: url('https://media.istockphoto.com/id/531000726/photo/abstract-pattern-background.jpg?b=1&s=170667a&w=0&k=20&c=qqwc6inZUC6qeqIV4NNbah1SCW2WKHDp_yfd-UGAr2Q=');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .hero button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .products {
+    padding: 20px;
+  }
+  img {
+    width: 10%;
+    height: auto;
+}
